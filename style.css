@@ -1,0 +1,18 @@
+h1#header{
+  text-align: center;
+  color: rgb(0, 26, 139);
+  border: 1px solid rgb(33, 160, 22);
+  background: #fffb006b;
+  border-radius: 10px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+h2#aboutme{
+  color: blue;
+  float: left;
+  margin: auto;
+}
+h3#me {
+  float: right;
+  margin: auto;
+}
