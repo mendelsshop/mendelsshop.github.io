@@ -1,20 +1,47 @@
 h1#header{
   text-align: center;
   color: rgb(0, 26, 139);
+}
+div#header1{
   border: 2px solid rgb(0, 26, 139);
   background: #3b3b36;
   border-radius: 10px;
+  padding: 10px
 }
 h2#aboutme{
-  /* color: rgb(33, 93, 223); */
-  margin: auto;
+  color: rgb(0, 26, 139);
   text-align: center;
 }
-h3#me {
-  float: right;
-  margin: auto;
+div#name {
+  border: 2px solid rgb(0, 26, 139);
+  background: #000000;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
+div#projectlinks {
+  
+  border: 2px solid rgb(0, 26, 139);
+  background: #000000;
+  border-radius: 10px;
+}
+h2#projecttitle {
+  color: rgb(0, 26, 139);
+text-align: center;
+}
+ul#projectlist {
+  color: red;
+}
+a:link {
+  color: orange;
+}
+a:visited {
+  color: yellow;
+}
+a:hover {
+  color: green;
+}
 body {
   background: #000000;
   color: rgb(255, 255, 255);
