@@ -1,18 +1,26 @@
 h1#header{
   text-align: center;
   color: rgb(0, 26, 139);
-  border: 1px solid rgb(33, 160, 22);
-  background: #fffb006b;
+  border: 2px solid rgb(0, 26, 139);
+  background: #3b3b36;
   border-radius: 10px;
-  padding-right: 0px;
-  padding-left: 0px;
 }
 h2#aboutme{
-  color: blue;
-  float: left;
+  /* color: rgb(33, 93, 223); */
   margin: auto;
+  text-align: center;
 }
 h3#me {
   float: right;
   margin: auto;
+}
+
+body {
+  background: #000000;
+  color: rgb(255, 255, 255);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 1;
+  padding: 1;
 }
