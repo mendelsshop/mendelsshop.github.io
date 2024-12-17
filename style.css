@@ -1,22 +1,17 @@
-h1#header {
-  text-align: center;
-  color: rgb(0, 26, 139);
-}
-
 div#header1 {
   border: 2px solid rgb(0, 26, 139);
-  background: #3b3b36;
+  background: rgb(43, 46, 48);
   border-radius: 10px;
   padding: 10px
 }
 
-h2#title {
-  color: rgb(0, 26, 139);
+#title {
+  color: rgb(0, 183, 255);
   text-align: center;
 }
 
 div#name {
-  color: darkgreen;
+  color: rgb(0, 201, 0);
   border: 2px solid rgb(0, 26, 139);
   background: #000000;
   border-radius: 10px;
@@ -25,7 +20,7 @@ div#name {
 }
 
 div#setup {
-  color: purple;
+  color: rgb(169, 0, 247);
   border: 2px solid rgb(0, 26, 139);
   background: #000000;
   border-radius: 10px;
@@ -41,27 +36,23 @@ div#projectlinks {
 }
 
 h3#projectdesc {
-  color: brown;
-}
-
-a#projectdesc {
-  color: blue;
-}
-
-ul#projectlist {
   color: red;
 }
 
-a:link {
-  color: orange;
+ul#projectlist {
+  color:rgb(255, 38, 244);
 }
 
-a:visited {
+a:link {
   color: yellow;
 }
 
+a:visited {
+  color: rgb(255, 166, 0);
+}
+
 a:hover {
-  color: green;
+  color: greenyellow;
 }
 
 body {
