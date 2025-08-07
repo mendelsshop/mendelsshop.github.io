@@ -1,66 +1,82 @@
 div#header1 {
-  border: 2px solid rgb(0, 26, 139);
-  background: rgb(43, 46, 48);
-  border-radius: 10px;
-  padding: 10px
+    border: 2px solid rgb(0, 26, 139);
+    background: rgb(43, 46, 48);
+    border-radius: 10px;
+    padding: 10px
 }
 
 #title {
-  color: rgb(0, 183, 255);
-  text-align: center;
+    color: rgb(0, 183, 255);
+    text-align: center;
+}
+
+h3#title_desc {
+    color: rgb(255, 58, 6);
 }
 
 div#name {
-  color: rgb(0, 201, 0);
-  border: 2px solid rgb(0, 26, 139);
-  background: #000000;
-  border-radius: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+    color: rgb(0, 201, 0);
+    border: 2px solid rgb(0, 26, 139);
+    background: #000000;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 div#setup {
-  color: rgb(169, 0, 247);
-  border: 2px solid rgb(0, 26, 139);
-  background: #000000;
-  border-radius: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
+    color: rgb(169, 0, 247);
+    border: 2px solid rgb(0, 26, 139);
+    background: #000000;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+div#resume {
+    border: 2px solid rgb(0, 26, 139);
+    background: #000000;
+    border-radius: 10px;
+}
+
+h3#resume {
+
+    color: rgb(255, 38, 244);
+    padding-left: 10px;
 }
 
 div#projectlinks {
-  border: 2px solid rgb(0, 26, 139);
-  background: #000000;
-  border-radius: 10px;
+    border: 2px solid rgb(0, 26, 139);
+    background: #000000;
+    border-radius: 10px;
 }
 
 h3#projectdesc {
-  color: red;
+    color: red;
 }
 
 ul#projectlist {
-  color:rgb(255, 38, 244);
+    color: rgb(255, 38, 244);
 }
 
 a:link {
-  color: yellow;
+    color: yellow;
 }
 
 a:visited {
-  color: rgb(255, 166, 0);
+    color: rgb(255, 166, 0);
 }
 
 a:hover {
-  color: greenyellow;
+    color: greenyellow;
 }
 
 body {
-  radius: 10px;
-  background: #000000;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  margin: 1;
-  padding: 1;
+    radius: 10px;
+    background: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 1;
+    padding: 1;
 }
