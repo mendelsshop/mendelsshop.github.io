@@ -28,6 +28,7 @@
         </div>
         <div id="projectlinks">
             <h2 id="title">Projects:</h2>
+            <h3 id="title_desc"> Projects I have mostly worked on myself, in various states of completion.</h3>
             <ul id="projectlist">
                 <li> <a href="https://github.com/mendelsshop/git_function_history">git function history</a>
                     <div id="projectdesc">
@@ -68,8 +69,25 @@
                     sculpture, etc) right now.<br>
                     I made this because I couldn't choose which art piece to use for an art history class.
                 </li>
-                <li> <a href="https://github.com/mendelsshop/everything">everything</a> </li>
-                <li> <a href="https://github.com/mendelsshop/strings">strings</a> </li>
+                <li> <a href="https://github.com/mendelsshop/everything">everything</a>
+                    <h3 id="projectdesc">About:</h3>
+                    A joke Programming Language that combines lots of feature from many different languages into
+                    one.<br>
+                    Initially based on UMPL.<br>
+                    It has racket like syntax, but you can also write c/rust syntax.<br>
+                    It has a module and macro system similar to racket's.<br>
+                    Functions are auto curried an idea taken from ML/Haskell.
+                </li>
+                <li> <a href="https://github.com/mendelsshop/strings">strings</a>
+                    <h3 id="projectdesc">About:</h3>
+                    A ML based programming language.<br>
+                    Started of as a way to learn about type inference.<br>
+                    Type system is HM with row types, eventually going to use a full constraint based approach.<br>
+                    Has interesting syntax where normally whatever you type is just interpreted as something to
+                    print.<br>
+                    To actually program you have to quote the program (inverse of most languages).<br>
+                    This idea and using ML based syntax made it it bit complicated to parse.
+                </li>
                 <li> <a href="https://github.com/mendelsshop/katan">katan</a> </li>
             </ul>
         </div>
@@ -79,15 +97,39 @@
             <h3 id="title_desc"> Group projects, college project, and projects I have contributed to.</h3>
 
             <ul id="projectlist">
-                <li> <a>Shank(Private)</a></li>
-                <li> <a href="https://github.com/rust-itertools/itertools">itertools</a> </li>
-                <li> <a href="https://github.com/ICSI418Y/Quiztopia">Quiztopia</a> </li>
+                <li> <a>Shank(Private)</a>
+                    <h3 id="projectdesc"> A simple and efficient Programming Language.</h3>
+                    I worked on this a research project and as a capstone project with a bunch of other people.<br>
+                    I worked on the LLVM compilation backend, including adding a monomporphizer.<br>
+                    I fixed and refactored the type and module system.<br>
+                    For my capstone I wrote an <a href="https://microsoft.github.io/language-server-protocol/">LSP</a>
+                    for it,<br>
+                    in my spare time I also wrote <a href="https://tree-sitter.github.io/">Tree Sitter</a> <a
+                        href="https://github.com/mendelsshop/tree-sitter-shank">Parser</a> for Shank.
+
+                </li>
+                <li> <a href="https://github.com/rust-itertools/itertools">itertools</a>
+                    <h3 id="projectdesc">
+                        A very used part of the rust ecosystem that extends rust iterators and assists in data
+                        processing.</h3>
+                    I contributed <a href="https://github.com/rust-itertools/itertools/pull/1033">PR#1033</a>,
+                    which
+                    provides a specific way to get all the combinations of the data.
+                </li>
+                <li> <a href="https://github.com/ICSI418Y/Quiztopia">Quiztopia</a>
+                    <h3 id="projectdesc">A Quizlet like website</h3>
+
+                    A group project for my software engineering class.<br>
+                    Written using the MERN(MongoDB, Express, React.js, Node) stack.
+                </li>
             </ul>
         </div>
         <div id="setup">
             <h2 id="title">My setup: </h2>
             <h3>Text editor:</h3>
             I use Neovim (BTW), Tmux, and lazygit.
+            <h3>Web Browser:</h3>
+            Firefox + Dark Reader + Tridactyl + uBlock Origin.
             <h3>Hardware and OS(s):</h3>
             I run Debian experimental and unstable on my main computer.<br>
             I also have another computer running arch and a server running NixOS.
